@@ -1,0 +1,33 @@
+{
+  "name": "buzznext3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev && sanity build",
+    "build": "next build",
+    "start": "next start && sanity start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@hookform/resolvers": "^2.8.8",
+    "@portabletext/react": "^1.0.6",
+    "@sanity/client": "^3.3.0",
+    "@sanity/image-url": "^1.0.1",
+    "ethers": "^5.6.5",
+    "next": "12.1.6",
+    "next-sanity": "^0.5.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.30.0",
+    "react-pdf": "^5.7.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
